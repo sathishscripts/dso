@@ -1,15 +1,15 @@
 # Digital Oscilloscope - Requirement Specification
 
 ## 1. Introduction
-This project aims to design and implement a basic digital oscilloscope using Qt. It will capture, process, and display electrical signals over time. The focus is on refreshing GUI development, data acquisition handling, and real-time plotting in Qt. ( This requirement document is created using chatGPT  )
+This project aims to design and implement a basic digital oscilloscope. It will capture, process, and display electrical signals over time. The focus is on refreshing GUI development, data acquisition handling, and real-time plotting.
 
 ---
 
 ## 2. Scope
-- Build a desktop application using Qt/QML
+- Build a DSO application. 
 - Interface with a signal input source 
 	+ Simulated for testing 
-	+ Real via ADC
+	+ Real hardware via ADC
 - Display the waveform in real-time.
 - Provide basic oscilloscope features such as start/stop, scaling, and cursors.
 - Implement basic measurements (e.g., frequency, peak-to-peak voltage).
@@ -38,8 +38,6 @@ This project aims to design and implement a basic digital oscilloscope using Qt.
 | NFR2 | The GUI must be responsive and handle user interactions smoothly. |
 | NFR3 | The code should be modular to allow for future enhancements. |
 | NFR4 | The application should run on Linux and IMX8 hardware |
-| NFR5 | Use of Qt 5 or Qt 6 libraries. 
-
 ---
 
 ## 4. System Architecture
